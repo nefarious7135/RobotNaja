@@ -1,0 +1,85 @@
+{"level":30,"time":"2023-09-20T09:50:41.995Z","pid":8676,"hostname":"gOssila","msg":"Listening on 51477"}
+{"level":30,"time":"2023-09-20T09:50:42.265Z","pid":8676,"hostname":"gOssila","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-20T09:50:42.266Z","pid":8676,"hostname":"gOssila","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-20T09:50:42.268Z","pid":8676,"hostname":"gOssila","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-20T09:50:42.268Z","pid":8676,"hostname":"gOssila","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-20T09:50:42.271Z","pid":8676,"hostname":"gOssila","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-09-20T09:50:42.510Z","pid":8676,"hostname":"gOssila","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-09-20T09:50:42.513Z","pid":8676,"hostname":"gOssila","msg":"Start of node method newContext"}
+{"level":30,"time":"2023-09-20T09:50:42.513Z","pid":8676,"hostname":"gOssila","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-09-20T09:50:42.513Z","pid":8676,"hostname":"gOssila","msg":"Trace file: "}
+{"level":30,"time":"2023-09-20T09:50:42.522Z","pid":8676,"hostname":"gOssila","msg":"Changed active context"}
+{"level":30,"time":"2023-09-20T09:50:42.522Z","pid":8676,"hostname":"gOssila","msg":"End of node method newContext"}
+{"level":30,"time":"2023-09-20T09:50:42.524Z","pid":8676,"hostname":"gOssila","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-09-20T09:50:42.525Z","pid":8676,"hostname":"gOssila","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-09-20T09:50:42.628Z","pid":8676,"hostname":"gOssila","msg":"Video path: undefined"}
+{"level":30,"time":"2023-09-20T09:50:42.628Z","pid":8676,"hostname":"gOssila","msg":"Changed active page"}
+{"level":30,"time":"2023-09-20T09:50:44.370Z","pid":8676,"hostname":"gOssila","msg":"End of node method newPage"}
+{"level":30,"time":"2023-09-20T09:50:44.373Z","pid":8676,"hostname":"gOssila","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-20T09:50:44.373Z","pid":8676,"hostname":"gOssila","msg":"Strict mode is enabled, find Locator with //button[@class=\"login-type-btn guest\"] in page."}
+{"level":30,"time":"2023-09-20T09:50:45.272Z","pid":8676,"hostname":"gOssila","msg":"End of node method click"}
+{"level":30,"time":"2023-09-20T09:50:45.275Z","pid":8676,"hostname":"gOssila","msg":"Start of node method click"}
+{"level":30,"time":"2023-09-20T09:50:45.275Z","pid":8676,"hostname":"gOssila","msg":"Strict mode is enabled, find Locator with //button[@class=\"accept-btn\"] in page."}
+{"level":30,"time":"2023-09-20T09:50:45.342Z","pid":8676,"hostname":"gOssila","msg":"End of node method click"}
+{"level":30,"time":"2023-09-20T09:50:45.344Z","pid":8676,"hostname":"gOssila","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-20T09:50:45.347Z","pid":8676,"hostname":"gOssila","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-20T09:50:45.348Z","pid":8676,"hostname":"gOssila","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-20T09:50:45.349Z","pid":8676,"hostname":"gOssila","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-20T09:50:45.350Z","pid":8676,"hostname":"gOssila","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-20T09:50:45.351Z","pid":8676,"hostname":"gOssila","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-20T09:50:45.353Z","pid":8676,"hostname":"gOssila","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-20T09:50:45.354Z","pid":8676,"hostname":"gOssila","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-20T09:50:45.356Z","pid":8676,"hostname":"gOssila","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-20T09:50:45.357Z","pid":8676,"hostname":"gOssila","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2023-09-20T09:50:45.359Z","pid":8676,"hostname":"gOssila","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-20T09:50:45.359Z","pid":8676,"hostname":"gOssila","msg":"Strict mode is enabled, find Locator with //section[@id=\"anime\"] in page."}
+{"level":30,"time":"2023-09-20T09:50:46.407Z","pid":8676,"hostname":"gOssila","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2023-09-20T09:50:46.409Z","pid":8676,"hostname":"gOssila","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2023-09-20T09:50:46.409Z","pid":8676,"hostname":"gOssila","msg":"Strict mode is enabled, find Locator with //section[@id=\"aisplayoriginals\"] in page."}
+{"level":30,"time":"2023-09-20T09:50:56.420Z","pid":8676,"hostname":"gOssila","msg":"Error of node method  scrollToElement"}
+================= Original suppressed error =================
+locator.scrollIntoViewIfNeeded: Timeout 10000ms exceeded.
+=========================== logs ===========================
+waiting for locator('xpath=//section[@id="aisplayoriginals"]')
+============================================================
+    at scrollToElement (C:\Python\Lib\site-packages\Browser\wrapper\index.js:9161:17)
+    at async PlaywrightServer.scrollToElement (C:\Python\Lib\site-packages\Browser\wrapper\index.js:9984:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2023-09-20T09:50:56.426Z","pid":8676,"hostname":"gOssila","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2023-09-20T09:50:56.427Z","pid":8676,"hostname":"gOssila","Take screenshot with options: ":{"path":"D:\\Automate_Training\\Robot\\TestSuites\\result\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2023-09-20T09:50:56.691Z","pid":8676,"hostname":"gOssila","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2023-09-20T09:51:06.288Z","pid":8676,"hostname":"gOssila","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-09-20T09:51:06.304Z","pid":8676,"hostname":"gOssila","msg":"Removed page=bd73c0ba-9fee-420a-9dd2-aec41408d480 from context=30c6d217-8017-46b7-a032-1a78932663be page stack"}
+{"level":30,"time":"2023-09-20T09:51:06.477Z","pid":8676,"hostname":"gOssila","msg":"End of node method closeAllBrowsers"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Python\Lib\site-packages\Browser\wrapper\index.js:9436:15)
+    at PlaywrightServer.getActiveBrowser (C:\Python\Lib\site-packages\Browser\wrapper\index.js:9969:59)
+    at PlaywrightServer.setTimeout (C:\Python\Lib\site-packages\Browser\wrapper\index.js:10214:57)
+    at C:\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:395:13)
+    at ServerHttp2Stream.onEnd (C:\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:382:22)
+    at ServerHttp2Stream.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-09-20T09:51:06.480Z","pid":8676,"hostname":"gOssila","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-20T09:51:06.480Z","pid":8676,"hostname":"gOssila","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Python\Lib\site-packages\Browser\wrapper\index.js:9436:15)
+    at PlaywrightServer.getActiveBrowser (C:\Python\Lib\site-packages\Browser\wrapper\index.js:9969:59)
+    at PlaywrightServer.setTimeout (C:\Python\Lib\site-packages\Browser\wrapper\index.js:10214:57)
+    at C:\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:395:13)
+    at ServerHttp2Stream.onEnd (C:\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:382:22)
+    at ServerHttp2Stream.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-09-20T09:51:06.483Z","pid":8676,"hostname":"gOssila","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-20T09:51:06.483Z","pid":8676,"hostname":"gOssila","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-09-20T09:51:06.509Z","pid":8676,"hostname":"gOssila","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-09-20T09:51:06.509Z","pid":8676,"hostname":"gOssila","msg":"End of node method closeAllBrowsers"}

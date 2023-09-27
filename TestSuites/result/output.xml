@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20230924 14:32:19.652" rpa="false" schemaversion="4">
+<suite id="s1" name="Ex android copy" source="D:\Automate_Training\Robot\TestSuites\Ex_android copy.robot">
+<test id="s1-t1" name="Open Test Application For android" line="17">
+<kw name="Open Test Application">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>remote_url=http://192.168.1.6/wd/hub</arg>
+<arg>deviceName=samsung SM-J710F</arg>
+<arg>platformVersion=8.1</arg>
+<arg>platformName=Android</arg>
+<arg>appPackage=com.material.components</arg>
+<arg>appActivity=com.material.components.activity.MainMenu</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<msg timestamp="20230924 14:32:22.417" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x04155630&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /wd/hub/session</msg>
+<msg timestamp="20230924 14:32:24.777" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x04562750&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /wd/hub/session</msg>
+<msg timestamp="20230924 14:32:27.130" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x04562B30&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /wd/hub/session</msg>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20230924 14:32:29.684" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20230924 14:32:29.684" endtime="20230924 14:32:29.688"/>
+</kw>
+<msg timestamp="20230924 14:32:29.688" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230924 14:32:29.690" level="FAIL">MaxRetryError: HTTPConnectionPool(host='192.168.1.6', port=80): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0456B030&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))</msg>
+<status status="FAIL" starttime="20230924 14:32:19.887" endtime="20230924 14:32:29.691"/>
+</kw>
+<status status="FAIL" starttime="20230924 14:32:19.887" endtime="20230924 14:32:29.692"/>
+</kw>
+<kw name="Tap" library="AppiumLibrary">
+<arg>id=com.material.components:id/bt_close</arg>
+<doc>*DEPRECATED!!* Since selenium v4, use `Tap With Positions` keyword.</doc>
+<msg timestamp="20230924 14:32:29.692" level="WARN">Keyword 'AppiumLibrary.Tap' is deprecated. Since selenium v4, use `Tap With Positions` keyword.</msg>
+<status status="NOT RUN" starttime="20230924 14:32:29.692" endtime="20230924 14:32:29.693"/>
+</kw>
+<kw name="Swipe" library="AppiumLibrary">
+<arg>0</arg>
+<arg>1000</arg>
+<arg>100</arg>
+<arg>100</arg>
+<arg>500</arg>
+<doc>Swipe from one point to another point, for an optional duration.</doc>
+<status status="NOT RUN" starttime="20230924 14:32:29.694" endtime="20230924 14:32:29.694"/>
+</kw>
+<kw name="Swipe" library="AppiumLibrary">
+<arg>1000</arg>
+<arg>500</arg>
+<arg>100</arg>
+<arg>100</arg>
+<arg>500</arg>
+<doc>Swipe from one point to another point, for an optional duration.</doc>
+<status status="NOT RUN" starttime="20230924 14:32:29.694" endtime="20230924 14:32:29.694"/>
+</kw>
+<status status="FAIL" starttime="20230924 14:32:19.887" endtime="20230924 14:32:29.695">MaxRetryError: HTTPConnectionPool(host='192.168.1.6', port=80): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x0456B030&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))</status>
+</test>
+<status status="FAIL" starttime="20230924 14:32:19.653" endtime="20230924 14:32:29.697"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Ex android copy">Ex android copy</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230924 14:32:22.417" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x04155630&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /wd/hub/session</msg>
+<msg timestamp="20230924 14:32:24.777" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x04562750&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /wd/hub/session</msg>
+<msg timestamp="20230924 14:32:27.130" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('&lt;urllib3.connection.HTTPConnection object at 0x04562B30&gt;: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /wd/hub/session</msg>
+<msg timestamp="20230924 14:32:29.688" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20230924 14:32:29.692" level="WARN">Keyword 'AppiumLibrary.Tap' is deprecated. Since selenium v4, use `Tap With Positions` keyword.</msg>
+</errors>
+</robot>
